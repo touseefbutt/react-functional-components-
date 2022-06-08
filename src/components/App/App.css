@@ -1,0 +1,29 @@
+.App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container {
+    display: flex;
+}
+
+.preview {
+    flex-basis: 46%;
+    background: var(--blue-greige);
+    margin-right: .5em;
+}
+
+#products-container {
+    display: flex;
+    align-items: top;
+    width: 100%;
+    justify-content: center;
+}
+
+.products,
+.cart {
+    margin: .5em;
+    height: 100%;
+    width: 50%;
+}
